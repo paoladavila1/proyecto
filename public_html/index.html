@@ -53,7 +53,7 @@ function soloNumeros(e){
    <H3 align=center> METODOS SIMPLES GRAFICOS </H3>  
         <br>
         <br>
-         <!--  FORMULARIO DE DATOS     -->
+         <!--  FORMULARIO DE RESTRICCIONES    -->
     <form action="prog.php" method="post" name="formu" id="formu" onsubmit="return comprobar()">
          1. Ecuacion lineal:     <input type="text"   size="8" name="ecuacionx1" id="x1" value="" onKeyPress="return soloNumeros(event)"> 
               <input type="text" size="8"  name="ecuaciony1"  id="y1" value="" onKeyPress="return soloNumeros(event)">
@@ -72,6 +72,7 @@ function soloNumeros(e){
            <H3 align=center>    <input type="submit" value="VALIDAR" id="submit" > </H3>
 </form>
     
+          <!--  TABLA DE DATOS    -->
   <table BORDER=1 >
 <tr>
   <td > <H5 align=center> Par </H5> </td> 
@@ -96,16 +97,14 @@ function soloNumeros(e){
 </TD>
  <!--  PARTE DERECHA GRAFICA     -->
 <TD WIDTH=100 BGCOLOR="CDD9F5">
-   <H3 align=center> GRAFICO </H3> 
+ <blockquote> 
+<H3 align=center> GRAFICO </H3> 
+</blockquote>  
   
 </TD>
 
 
-
 </TABLE>        
         
-   
-  
-        
-    </body>
+</body>
 </html>
