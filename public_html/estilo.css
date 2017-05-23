@@ -1,3 +1,8 @@
+table
+   {
+    background: burlywood;   
+       
+   }
 
 #submit {
     font-weight: bold;
@@ -11,15 +16,13 @@
 }
 
 #submit:hover {
-    background: #FFFFFF;
+    background: white;
     color: #5E6D92;
-    
-   #tabla
-   {
-    background: red;   
-       
-   }
-    
+
 }
 
-
+#x1
+{
+    width:50px;
+    
+}
