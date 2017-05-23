@@ -24,14 +24,14 @@
     padding: 7px;
     margin: 0 10px 30px 0;
     border: 2px solid #7CF5F2;
-    background: #E3E7E7;
+    background: #393E4A;
     border-radius: 8px 8px 8px 8px;
-     color: black;
+     color: white;
 }
 
 #submit:hover {
     background: white;
-    color: black;
+    color: #393E4A;
 }
 
 #x1 

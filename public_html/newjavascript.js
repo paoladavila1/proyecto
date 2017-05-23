@@ -3,6 +3,7 @@
 function capturar_grafico()
 {
     
+    
     var x1,y1,n1,x2,y2,n2,x3,y3,n3;
     //ecuacion uno
     x1= document.getElementById("x1").value;
@@ -31,6 +32,9 @@ function capturar_grafico()
        //grafica 3
        var xgrafica3=n3/x3;
        var ygrafica3=n3/y3;
+       
+       
+       
        
     alert(x1);
     
