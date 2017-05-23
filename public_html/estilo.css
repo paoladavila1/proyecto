@@ -4,6 +4,8 @@ table
      font-family: cursive ;
       font-size:-3em;
    }
+   
+  
 
 #tablad
    {
@@ -13,8 +15,6 @@ table
       color: white;
    }
    #tabla2{
-       
-       
        background: #E3E7E7; 
    }
 
@@ -26,13 +26,12 @@ table
     border: 2px solid #7CF5F2;
     background: #E3E7E7;
     border-radius: 8px 8px 8px 8px;
-     color: #5E6D92;
+     color: black;
 }
 
 #submit:hover {
     background: white;
-    color: #5E6D92;
-
+    color: black;
 }
 
 #x1 
