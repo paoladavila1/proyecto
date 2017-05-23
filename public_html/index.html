@@ -11,34 +11,8 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
           
  <!--  DISEÑO DE BOTON     -->
-<style>
-#submit {
-    font-weight: bold;
-    cursor: pointer;
-    padding: 7px;
-    margin: 0 10px 30px 0;
-    border: 2px solid #5E6D92;
-    background: #5E6D92;
-    border-radius: 8px 8px 8px 8px;
-     color: white;
-}
 
-#submit:hover {
-    background: #FFFFFF;
-    color: #5E6D92;
-    
-    
-    
-}
-</style>
  <!-- VALIDACIÓN DE SOLO NUMEROS      -->
-<script type="text/javascript">
-// Solo permite ingresar numeros.
-function soloNumeros(e){
-	var key = window.Event ? e.which : e.keyCode
-	return (key=45 & key >= 48 && key <= 57)
-}
-</script>
 
         
     </head>
@@ -49,9 +23,9 @@ function soloNumeros(e){
     
     
      <!-- TABLA GENERAL DE PANTALLA      -->
-<TABLE BORDER=1 WIDTH=1337 >
+<TABLE BORDER=1 WIDTH=1337 id="tabla">
 
-<TD WIDTH=50 HEIGHT=600 BGCOLOR="white">
+<TD WIDTH=50 HEIGHT=600 >
     <!--  CDD9F5    --> 
 
   F(x,y)=  <input type="text"   size="5" name="funciono" id="fo" value="" onKeyPress="return soloNumeros(event)"> X

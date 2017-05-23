@@ -1,0 +1,25 @@
+
+#submit {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 7px;
+    margin: 0 10px 30px 0;
+    border: 2px solid #5E6D92;
+    background: #5E6D92;
+    border-radius: 8px 8px 8px 8px;
+     color: white;
+}
+
+#submit:hover {
+    background: #FFFFFF;
+    color: #5E6D92;
+    
+   #tabla
+   {
+    background: red;   
+       
+   }
+    
+}
+
+
