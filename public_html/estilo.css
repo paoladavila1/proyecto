@@ -1,7 +1,21 @@
 table
    {
-    background: burlywood;   
+    background: #6CBDBB;   
+     font-family: cursive ;
+      font-size:-3em;
+   }
+
+#tablad
+   {
+    background: #393E4A;   
+     font-family: cursive ;
+      font-size:-3em;
+      color: white;
+   }
+   #tabla2{
        
+       
+       background: #E3E7E7; 
    }
 
 #submit {
@@ -9,10 +23,10 @@ table
     cursor: pointer;
     padding: 7px;
     margin: 0 10px 30px 0;
-    border: 2px solid #5E6D92;
-    background: #5E6D92;
+    border: 2px solid #7CF5F2;
+    background: #E3E7E7;
     border-radius: 8px 8px 8px 8px;
-     color: white;
+     color: #5E6D92;
 }
 
 #submit:hover {
@@ -21,7 +35,51 @@ table
 
 }
 
-#x1
+#x1 
+{
+    width:50px;   
+}
+#y1
+{
+    width:50px;   
+}
+#n1
+{
+    width:50px;  
+}
+#x2
+{
+    width:50px;  
+}
+#y2
+{
+    width:50px;
+}
+#n2
+{
+    width:50px;  
+}
+#x3
+{
+    width:50px;
+    
+}
+#y3
+{
+    width:50px;
+    
+}
+#n3
+{
+    width:50px;
+    
+}
+#fo
+{
+    width:50px;
+    
+}
+#foj
 {
     width:50px;
     
