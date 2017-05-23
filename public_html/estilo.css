@@ -1,15 +1,14 @@
 
-table
+#tabla
    {
     background: #6CBDBB;   
      font-family: cursive ;
-     background-image: -moz-radial-gradient(center 45deg,circle cover, #6CBDBB, #333);
-  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(#6CBDBB), to(#333));
-  background-image: radial-gradient(center 45deg,circle cover, #6CBDBB, #333);
+     background-image: -moz-radial-gradient(center 45deg,circle cover, #FFFFFF, #129C99);
+  background-image: -webkit-gradient(radial, 50% 50%, 0, 50% 50%,800, from(#FFFFFF), to(#129C99));
+  background-image: radial-gradient(center 45deg,circle cover, #FFFFFF, #129C99);
      
    }
    
-
 #tablad
    {
     background: #393E4A;   
@@ -17,9 +16,7 @@ table
       font-size:-3em;
       color: white;
    }
-   #tabla2{
-       background: #E3E7E7; 
-   }
+  
 
 #submit {
     font-weight: bold;
